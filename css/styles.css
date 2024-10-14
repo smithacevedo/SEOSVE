@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:  #008fd3;
+    font-weight: bold;
+}
+
+nav ul li img {
+    max-width: 100px;
+    vertical-align: middle;
+}
+
+.titulo {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #eaeaea;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.subtitulo {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #ffffff;
+}
+
+.subtitulo p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.service {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    width: 30%;
+}
+
+.service img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+
+.service h2 {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+
+.service p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.service button {
+    background-color: #008fd3;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.service button:hover {
+    background-color: #008fd3;
+}
+
+.briefing {
+    text-align: center;
+    padding: 2rem;
+    background-color: #eaeaea;
+}
+
+.briefing h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.briefing p {
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: 650;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
